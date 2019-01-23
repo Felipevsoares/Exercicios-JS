@@ -1,1 +1,1 @@
-# Exercicios-JS
+# Exercicios-JS Curso Java Script Ninja

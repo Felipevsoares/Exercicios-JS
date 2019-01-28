@@ -1,0 +1,44 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Exercício 23 Calculadora</title>
+        <style>
+        .button{
+            padding:16px;
+            background-color:black;
+            color:white;
+            
+        }
+        .btn-operation{
+            display:inline-block;
+            display:block;
+        }
+        </style>
+    </head>
+    <body>
+        <input type="text" data-js="telaCalc" value="0">
+
+        <div class="buttons" data-js="buttons">
+            <button data-js="button-numbers" value = "0">0</button>
+            <button data-js="button-numbers" value = "1">1</button>
+            <button data-js="button-numbers" value = "2">2</button>
+            <button data-js="button-numbers" value = "3">3</button>
+            <button data-js="button-numbers" value = "4">4</button>
+            <button data-js="button-numbers" value = "5">5</button>
+            <button data-js="button-numbers" value = "6">6</button>
+            <button data-js="button-numbers" value = "7">7</button>
+            <button data-js="button-numbers" value = "8">8</button>
+            <button data-js="button-numbers" value = "9">9</button>
+        </div>
+        
+        <div class="buttonsOP" data-js="buttonsOP">
+            <button class="button btn-operation" data-js="button-op" value = "*">x</button>
+            <button class="button btn-operation" data-js="button-op" value = "+">+</button>
+            <button class="button btn-operation" data-js="button-op" value = "-">-</button>
+            <button class="button btn-operation" data-js="button-op" value = "/">÷</button>
+            <button class="button btn-operation" data-js="equal" >=</button>
+            <button class="button btn-operation" data-js="clean" >CE</button>
+        </div>
+        <script src="exerc23.js"></script>
+    </body>
+</html>
